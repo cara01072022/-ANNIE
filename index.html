@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657565893-eMEMEDV1" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "คุณคือผู้โชคดี ได้รับเครดิตฟรี 50 เครดิต",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "bubble",
+  "hero": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ANNIE",
+                "align": "center",
+                "color": "#ffcc00",
+                "weight": "bold"
+              },
+              {
+                "type": "text",
+                "text": "BETTING CASINO AND GAME SLOT ONLINE",
+                "size": "xxs",
+                "align": "center",
+                "color": "#FFFFFF"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#660000",
+              "endColor": "#ff0000"
+            },
+            "cornerRadius": "xl",
+            "borderColor": "#990000",
+            "borderWidth": "medium"
+          }
+        ],
+        "offsetTop": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://media.discordapp.net/attachments/1020140725184253985/1030030202685886514/Annie-07.jpg?width=628&height=627",
+                "size": "full",
+                "aspectMode": "fit"
+              }
+            ],
+            "cornerRadius": "md"
+          }
+        ],
+        "paddingAll": "lg",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "💥 สมาชิกใหม่ฝาก 300 รับ 450 💥",
+                    "align": "center",
+                    "color": "#FFFF00"
+                  },
+                  {
+                    "type": "text",
+                    "text": "⭐ทำเพียง 3 เทิร์น ไม่หักโบนัส⭐",
+                    "align": "center",
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "text",
+                    "text": "🎃 แจกเครดิตฟรี 50 เครดิต 🎃",
+                    "align": "center",
+                    "color": "#FFFFFF"
+                  }
+                ]
+              }
+            ],
+            "borderWidth": "medium",
+            "borderColor": "#990000",
+            "cornerRadius": "lg",
+            "paddingAll": "md",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#660000",
+              "endColor": "#ff0000"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รับโบนัส",
+                "align": "center",
+                "color": "#ffcc00"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "image",
+                    "url": "https://www.img.in.th/images/caf61764dc888a67ffaa96d9279ee60c.png",
+                    "size": "full",
+                    "aspectRatio": "5:1",
+                    "animated": true
+                  }
+                ],
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#660000",
+                  "endColor": "#ff0000"
+                },
+                "cornerRadius": "lg"
+              }
+            ],
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#330000",
+              "endColor": "#330000",
+              "centerColor": "#660000"
+            },
+            "cornerRadius": "lg",
+            "borderWidth": "medium",
+            "borderColor": "#990000",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "http://www.autobetkub.com/"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "รับเครดิตฟรี",
+                    "align": "center",
+                    "color": "#ffcc00"
+                  }
+                ],
+                "cornerRadius": "none"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "image",
+                        "url": "https://www.img.in.th/images/caf61764dc888a67ffaa96d9279ee60c.png",
+                        "size": "full",
+                        "aspectRatio": "5:1",
+                        "animated": true
+                      }
+                    ],
+                    "background": {
+                      "type": "linearGradient",
+                      "angle": "0deg",
+                      "startColor": "#660000",
+                      "endColor": "#ff0000"
+                    },
+                    "cornerRadius": "lg"
+                  }
+                ]
+              }
+            ],
+            "borderColor": "#990000",
+            "borderWidth": "medium",
+            "cornerRadius": "lg",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#330000",
+              "endColor": "#330000",
+              "centerColor": "#660000"
+            },
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://lin.ee/yLocc0B"
+            }
+          }
+        ],
+        "offsetTop": "sm",
+        "spacing": "md",
+        "margin": "sm"
+      }
+    ],
+    "borderWidth": "semi-bold",
+    "borderColor": "#990000",
+    "cornerRadius": "xl",
+    "background": {
+      "type": "linearGradient",
+      "angle": "0deg",
+      "startColor": "#330000",
+      "endColor": "#330000",
+      "centerColor": "#660000"
+    },
+    "paddingAll": "xl"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
